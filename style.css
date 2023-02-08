@@ -1,0 +1,134 @@
+body {
+  background: #fdfaf0;
+  font-family: "Lora", serif;
+  color: #2c1d14;
+  margin: 0 5px 15px 5px;
+}
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #2c1d14;
+  font-weight: normal;
+}
+h1 {
+  margin: 30px auto 5px auto;
+  font-size: 28px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+p {
+  font-size: 16px;
+  line-height: 27px;
+}
+article {
+  font-size: 16px;
+  line-height: 27px;
+}
+i {
+  color: #a75265;
+  font-size: 25px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #a75265;
+  background: #fdfaf0;
+  border: 2px solid #a75265;
+  border-radius: 100px;
+  transition: all 150ms ease;
+}
+button:hover {
+  cursor: pointer;
+  color: #fdfaf0;
+  background: #a75265;
+}
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #fdfaf0;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.blog-title {
+  display: inline;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  text-align: left;
+  color: #2c1d14;
+  font-size: 20px;
+}
+
+ul.menu-bar {
+  float: right;
+  list-style: none;
+  margin: 0 0 2.5px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #a75265;
+  font-size: 19px;
+}
+.menu-element {
+  display: inline;
+  padding-inline: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  transition: all 100ms ease;
+}
+.menu-element:hover {
+  cursor: pointer;
+  color: #fdfaf0;
+  background: #a75265;
+  border-radius: 100px;
+}
+li.icon {
+  display: inline;
+  margin: 15px;
+  text-transform: uppercase;
+  transition: all 100ms ease;
+}
+li.icon:hover {
+  cursor: pointer;
+}
+.text-full-page {
+  padding: 0 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.full-page-img {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+}
+.post-container {
+  padding: 20px;
+}
+.post-preview-left {
+  width: 45%;
+  flex: 0 0 auto;
+  float: left;
+  overflow: hidden;
+  margin: 0 20px;
+}
+.post-preview-right {
+  width: 45%;
+  flex: 0 0 auto;
+  overflow: hidden;
+  margin: 0 20px;
+}
+.post-preview-img {
+  display: flex;
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+}
