@@ -1,5 +1,5 @@
 body {
-  background: #bfd8d2;
+  background: #dce9e6;
   font-family: "Lora", serif;
   color: #2c1d14;
   margin: 0 5px 15px 5px;
@@ -9,18 +9,18 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #2c1d14;
   font-weight: normal;
 }
 h1 {
   margin: 30px auto 5px auto;
-  font-size: 28px;
+  font-size: 25px;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
   font-weight: normal;
+  margin: 10px auto;
 }
 p {
   font-size: 16px;
@@ -31,27 +31,27 @@ article {
   line-height: 27px;
 }
 i {
-  color: #a75265;
+  color: #de744c;
   font-size: 25px;
 }
 button {
   padding: 10px;
   text-transform: uppercase;
-  color: #a75265;
+  color: #de744c;
   background: #fedcd2;
-  border: 2px solid #a75265;
+  border: 2px solid#DE744C;
   border-radius: 100px;
   transition: all 150ms ease;
 }
 button:hover {
   cursor: pointer;
   color: #fedcd2;
-  background: #a75265;
+  background: #de744c;
 }
 header {
   position: sticky;
   top: 0px;
-  background-color: #bfd8d2;
+  background-color: #dce9e6;
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -69,7 +69,7 @@ ul.menu-bar {
   list-style: none;
   margin: 0 0 2.5px 0;
   font-family: "Montserrat", sans-serif;
-  color: #a75265;
+  color: #de744c;
   font-size: 15px;
 }
 .menu-element {
@@ -83,7 +83,7 @@ ul.menu-bar {
 .menu-element:hover {
   cursor: pointer;
   color: #fdfaf0;
-  background: #a75265;
+  background: #de744c;
   border-radius: 100px;
 }
 li.icon {
@@ -110,5 +110,6 @@ li.icon:hover {
 }
 .post-container {
   padding: 20px;
+  border-radius: 30px;
   background-color: #fedcd2;
 }
