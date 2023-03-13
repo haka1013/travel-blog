@@ -1,7 +1,7 @@
 body {
-  background: #dce9e6;
   font-family: "Lora", serif;
   color: #2c1d14;
+  background-color: #dfe6ec;
   margin: 0 5px 15px 5px;
 }
 h1,
@@ -10,7 +10,7 @@ h2 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: #2c1d14;
+  color: #1b401f;
   font-weight: normal;
 }
 h1 {
@@ -21,6 +21,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   margin: 10px auto;
+  color: #1b401f;
 }
 p {
   font-size: 16px;
@@ -31,36 +32,41 @@ article {
   line-height: 27px;
 }
 i {
-  color: #de744c;
+  color: #1b401f;
   font-size: 25px;
 }
+.carousel {
+  margin: 20px auto;
+}
+
 button {
   padding: 10px;
   text-transform: uppercase;
-  color: #de744c;
-  background: #fedcd2;
-  border: 2px solid#DE744C;
+  color: #bd96c5;
+  background: #efe5db;
+  border: 2px solid #bd96c5;
   border-radius: 100px;
   transition: all 150ms ease;
 }
 button:hover {
   cursor: pointer;
-  color: #fedcd2;
-  background: #de744c;
+  color: #efe5db;
+  background: #bd96c5;
 }
 header {
   position: sticky;
   top: 0px;
-  background-color: #dce9e6;
+  background-color: #dfe6ec;
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 950;
 }
 .blog-title {
   display: inline;
   text-transform: uppercase;
   font-family: "Lora", serif;
   text-align: left;
-  color: #2c1d14;
+  color: #1b401f;
   font-size: 20px;
 }
 
@@ -69,7 +75,7 @@ ul.menu-bar {
   list-style: none;
   margin: 0 0 2.5px 0;
   font-family: "Montserrat", sans-serif;
-  color: #de744c;
+  color: #1b401f;
   font-size: 15px;
 }
 .menu-element {
@@ -82,8 +88,8 @@ ul.menu-bar {
 }
 .menu-element:hover {
   cursor: pointer;
-  color: #fdfaf0;
-  background: #de744c;
+  background: #1b401f;
+  color: #efe5db;
   border-radius: 100px;
 }
 li.icon {
@@ -111,5 +117,5 @@ li.icon:hover {
 .post-container {
   padding: 20px;
   border-radius: 30px;
-  background-color: #fedcd2;
+  background-color: #efe5db;
 }
