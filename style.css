@@ -37,9 +37,11 @@ i {
 }
 .carousel {
   margin: 20px auto;
+  max-width: 950px;
+  height: auto;
 }
 
-button {
+.weiterlesen {
   padding: 10px;
   text-transform: uppercase;
   color: #bd96c5;
@@ -48,7 +50,7 @@ button {
   border-radius: 100px;
   transition: all 150ms ease;
 }
-button:hover {
+.weiterlesen:hover {
   cursor: pointer;
   color: #efe5db;
   background: #bd96c5;
@@ -57,7 +59,7 @@ header {
   position: sticky;
   top: 0px;
   background-color: #dfe6ec;
-  padding: 20px;
+  padding: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 950;
 }
